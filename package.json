@@ -4,7 +4,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/**"
   ],
   "main": "dist/index",
   "types": "dist/index",
@@ -15,6 +15,7 @@
     "build": "lerna run build --stream",
     "lint": "eslint ./packages --ext .ts,.tsx",
     "lint:parallel": "lerna run lint --parallel",
+    "storybook": "start-storybook -p 6006",
     "test": "yarn build && jest",
     "test:watch": "yarn build && jest --watch",
     "clean": "rm -rf .build && lerna run clean --parallel"

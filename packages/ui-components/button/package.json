@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/ui-components",
+  "name": "@monorepo/button",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
@@ -14,7 +14,6 @@
     "lint": "eslint ./src --ext .ts,.tsx",
     "clean": "rm -rf ./dist && rm tsconfig.tsbuildinfo",
     "watch": "tsc -b -w --preserveWatchOutput",
-    "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
   "dependencies": {

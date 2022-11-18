@@ -6,16 +6,9 @@
 
     "module": "esnext",
     "target": "ES2019",
-    "lib": [ "dom", "ES2019"]
+    "lib": ["dom", "ES2019"]
   },
-  "references": [
-    { "path":  "../diceroll" }
-  ],
+  "references": [{ "path": "../diceroll" }],
   "include": ["src"],
-  "exclude": [
-    "node_modules",
-    "src/**/*.spec.ts",
-    "build",
-    "dist"
-  ]
+  "exclude": ["node_modules", "src/**/*.spec.ts", "build", "dist"]
 }
