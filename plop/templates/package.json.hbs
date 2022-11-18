@@ -1,7 +1,6 @@
 {
-  "name": "@monorepo/mynewthing",
+  "name": "@monorepo/{{kebabCase name}}",
   "version": "1.0.0",
-  "license": "MIT",
   "private": true,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,11 +13,5 @@
     "lint": "eslint ./src --ext .ts,.tsx",
     "clean": "rm -rf ./dist && rm tsconfig.tsbuildinfo",
     "watch": "tsc -b -w --preserveWatchOutput"
-  },
-  "dependencies": {
-    "@monorepo/diceroll": "1.0.0"
-  },
-  "devDependencies": {
-    "typescript": "^4.1.3"
   }
 }
