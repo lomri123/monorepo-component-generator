@@ -22,6 +22,7 @@
     "generate-component": "plop component --plopfile 'plop/plopfile.mjs'"
   },
   "devDependencies": {
+    "@storybook/addon-docs": "^6.5.13",
     "@types/jest": "^26.0.24",
     "@typescript-eslint/eslint-plugin": "^4.11.1",
     "@typescript-eslint/parser": "^4.11.1",
