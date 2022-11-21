@@ -1,9 +1,7 @@
 module.exports = {
   root: true,
   parser: '@typescript-eslint/parser',
-  plugins: [
-    '@typescript-eslint',
-  ],
+  plugins: ['@typescript-eslint'],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
@@ -12,4 +10,7 @@ module.exports = {
     'prettier/react',
     'prettier/@typescript-eslint',
   ],
+  rules: {
+    'react/prop-types': 'off',
+  },
 };

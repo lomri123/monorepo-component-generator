@@ -1,13 +1,13 @@
 import React from "react";
 
 import { roll } from "@monorepo/diceroll";
-import MonorepoButton from "@monorepo/button";
+import Text from "@monorepo/text";
 
 export const App = (): JSX.Element => {
   return (
     <div>
       {roll("1d20")}
-      <MonorepoButton label="test" />
+      <Text label="test" />
     </div>
   );
 };
